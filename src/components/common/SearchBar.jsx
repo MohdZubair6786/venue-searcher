@@ -7,7 +7,7 @@ const SearchBar = ({
   size = 'md',
   className = '',
 }) => {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState([]);
   const navigate = useNavigate();
 
   const sizeClasses = {
